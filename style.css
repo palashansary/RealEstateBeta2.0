@@ -120,13 +120,12 @@
     /* THIS IS THE FRONTPAGE BACKGROUND AND ADVANCE FILTER SECTION */
    
 #box1 #first{
-    position: relative;
+     position: relative;
     height: 90vh;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
-    padding-top: 12rem;
 }
 #box1 #first::before{
     content: "";
@@ -162,7 +161,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.8rem 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: white;
     border-radius: 4px;
 }
