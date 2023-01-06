@@ -314,11 +314,13 @@
 
 #box3 .gridContainer{
 
-    padding: 80px 100px;
+    padding: 80px 0px;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit,minmax(400px,400px));
+    gap: 40px; 
+    justify-content: center;
+
 
 }
 
