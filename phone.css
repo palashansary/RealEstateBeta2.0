@@ -566,6 +566,7 @@
    /* START OF EXPLORE BY LOCATION SECTION */
 
    .explore{
+    width: 100%;
     height: 100%;
     background-color:white;
     padding: 3rem;
@@ -589,18 +590,24 @@
    .exploreBox{
     position: relative;
     margin-top: 1rem;
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
     /* border: 2px solid red; */
-    height: 100%;
-    width: 100%;
+    height: 240px;
+    width: 100vw;
      display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px; 
+    overflow-y: scroll;
 
     
 
+   }
+
+   .exploreBox::-webkit-scrollbar{
+    margin: 0;
+    display: none;
    }
 
    
