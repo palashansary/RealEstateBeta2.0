@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 80px;
     top: 0;
     z-index: +1;
 
@@ -420,7 +420,7 @@
    .awardcontainer{
     margin-top: 5rem;
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
     justify-content: center;
     align-items: center;
    }
