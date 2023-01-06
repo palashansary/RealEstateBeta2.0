@@ -30,9 +30,11 @@
       /* THIS IS FRONTPAGE NAVBAR SECTION */
     
      #navbar{
+        position: sticky;
+        left: 0;
         height: 10vh;
+        width: 100%;
         background-color: white;
-        position: relative;
           
         /* THIS PORTION ADDED AFTER REALIZING THIS I HAVE WRITTER 2TIMES NAVBAR BY MISTAKE */
         /* position: relative; */
@@ -41,7 +43,6 @@
         gap: 15px;
         align-items: center;
         padding: 0 40px;
-        top: 0;
         z-index: 9999;
     }
 
