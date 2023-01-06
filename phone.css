@@ -410,19 +410,23 @@
     
     #box3 .gridContainer .gridBox{
         height: 300px;
-        width: 200px;
-        /* border: 2px solid red; */
-        box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+        width: 240px;
+        border-radius: 8px;
+        border: 1px solid gray;
+    
+        box-shadow: 2px 2px 2px gray;
     
     }
     
     #box3 .gridContainer .gridBox img{
-        height: 145px;
-        width: 200px;
+        height: 150px;
+        width: 240px;
+        border-radius:8px 8px 0px 0px;
+        
     }
     
       .location{
-        height: 105px;
+        height: 100px;
         background-color:azure;
       }
       .gridBox h2{
@@ -442,6 +446,21 @@
         border-radius: 4px;
       }
 
+      .location .forsale{
+        padding: 6px 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+    
+
+      .forsale h3{
+        color: green;
+        background-color: #bbffd7;
+    
+        padding: 4px 15px;
+        border-radius: 4px;
+      }
+
       .location h2{
         font: 0.7em sans-serif;
         font-weight: bold;
@@ -450,7 +469,13 @@
      
     
       .location .rentSale .fa-heart{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        color: gray;
+        cursor: pointer;
+      }
+
+      .location .forsale .fa-heart{
+        font-size: 1.2rem;
         color: gray;
         cursor: pointer;
       }
@@ -475,7 +500,7 @@
 
       .pricing h3{
         color: black;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         /* display: none; */
       }
 
@@ -567,11 +592,14 @@
     /* border: 2px solid red; */
     height: 100%;
     width: 100%;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 20px; 
+
+    
+
    }
 
    
