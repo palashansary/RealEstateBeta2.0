@@ -472,15 +472,15 @@
    }
 
    .exploreBox{
-    position: relative;
+   position: relative;
     margin-top: 2rem;
-    padding: 2rem 2rem;
-    /* border: 2px solid red; */
+    padding: 2rem 0rem;
     height: 100%;
     width: 100%;
     display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(420px,420px));
+    gap:30px;
+    justify-content: center;
    }
 
    
